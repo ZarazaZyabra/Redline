@@ -1,0 +1,10 @@
+ent-ClothingHeadHatHoodZeusHood = капюшон Зевса
+    .desc = Гарантированно не слетит с головы при прыжках с небоскрёба на небоскрёб.
+ent-ClothingHeadHatHoodWinterBso = капюшон зимней куртки офицера "Синий Щит"
+    .desc = { ent-ClothingHeadHatHoodWinterBase.desc }
+ent-ClothingHeadHatHoodWinterCapFancy = капюшон зимней куртки капитана
+    .desc = { ent-ClothingHeadHatHoodWinterBase.desc }
+ent-ClothingHeadHatHoodHereticCostume = оккультный капюшон
+    .desc = Порванный, покрытый пылью капюшон. Под ним размыто виднеются глаза.
+ent-ClothingHeadHatHoodSchemaMonk = капюшон монашеского облачения
+    .desc = Удобный капюшон монашеского облачения.

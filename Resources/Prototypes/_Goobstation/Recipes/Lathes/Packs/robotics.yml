@@ -3,7 +3,6 @@
 - type: latheRecipePack
   id: IPCPartsStatic
   recipes:
-  - ChestIPC
   - GroinIPC
   - LeftArmIPC
   - RightArmIPC
@@ -38,12 +37,41 @@
   - ModsuitGauntlets
   - ModsuitShell
   - ModsuitPlatingExternal
+  - ModsuitPlatingParamedic
+  - ModsuitPlatingEngineer
+  - ModsuitPlatingAtmostech
+
+- type: latheRecipePack
+  id: ModsuitModules
+  recipes:
+  - ModsuitCoreStandard
+  - ModsuitCorePlasma
+  - ModsuitModuleStorageCompact
+  - ModsuitModuleStorageLarge
+  - ModsuitModuleStorageBluespace
+  - ModsuitModuleFlashlight
+  - ModsuitModuleMouthhole
+  - ModsuitModuleMagboots
+  - ModsuitModuleWelding
+  - ModsuitModuleThermalRegulator
+  - ModsuitModuleGps
+  - ModsuitModuleHealthAnalyzer
+  - ModsuitModuleVisorMedical
+  - ModsuitModuleVisorDiagnostic
+  - ModsuitModuleVisorSecurity
+  - ModsuitModuleEmpShield
+  - ModsuitModuleJetpack
 
 - type: latheRecipePack
   id: BorgModulesGoob
   recipes:
   - BorgModuleAdvancedSurgery
   - BorgModuleLollypop
+
+- type: latheRecipePack
+  id: SecBorgParts
+  recipes:
+  - SecEndoskeleton
 
 - type: latheRecipePack
   id: PowerCages

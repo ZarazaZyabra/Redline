@@ -57,6 +57,42 @@
     Glass: 150
     Plasma: 50
 
+- type: latheRecipe
+  id: ModsuitPlatingParamedic
+  result: ModsuitPlatingParamedic
+  categories:
+  - Modsuit
+  completetime: 5
+  materials:
+    Steel: 300
+    Silver: 100
+    Glass: 50
+    Plasma: 50
+
+- type: latheRecipe
+  id: ModsuitPlatingEngineer
+  result: ModsuitPlatingEngineer
+  categories:
+  - Modsuit
+  completetime: 5
+  materials:
+    Steel: 300
+    Gold: 100
+    Glass: 50
+    Plasma: 50
+
+- type: latheRecipe
+  id: ModsuitPlatingAtmostech
+  result: ModsuitPlatingAtmostech
+  categories:
+  - Modsuit
+  completetime: 5
+  materials:
+    Steel: 300
+    Plasteel: 100
+    Glass: 50
+    Plasma: 50
+
 # Modules
 
 - type: latheRecipe
@@ -74,3 +110,15 @@
     Glass: 400
     Gold: 400
     Silver: 200
+
+# S.E.C. cyborg
+- type: latheRecipe
+  parent: BaseRoboticsRecipe
+  id: SecEndoskeleton
+  result: CyborgEndoskeletonSEC
+  completetime: 4
+  materials:
+    Steel: 1500
+    Gold: 200
+    Silver: 200
+    Uranium: 100

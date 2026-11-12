@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
 cmd-showaccessreaders-desc = Переключает отображение прав доступа ридеров на карте
 cmd-showaccessreaders-help =
     Информация о наложении:
@@ -6,4 +7,4 @@ cmd-showaccessreaders-help =
     +Set [Index]: [Tag Name] | Тег в наборе доступа (для доступа требуются все теги из набора)
     +Key [StationUid]: [StationRecordKeyId] | Разрешенный StationRecordKey
     -Tag [Tag Name] | Тег, который запрещен (имеет приоритет над другими разрешениями)
-cmd-showaccessreaders-status = Режим отладки ридеров доступа установлен на { $status }.
+cmd-showaccessreaders-status = Режим Debug ридеров доступа установлен на { $status }.

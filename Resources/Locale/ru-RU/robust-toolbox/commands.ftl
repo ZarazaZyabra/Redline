@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
 ### Localization for engine console commands
 
 ## generic command errors
@@ -131,7 +132,7 @@ cmd-dump_event_tables-arg-entity = <entityUid>
 
 ## 'monitor' command
 
-cmd-monitor-desc = Переключение отладочного монитора в меню F3.
+cmd-monitor-desc = Переключение монитора Debug в меню F3.
 cmd-monitor-help =
     Использование: monitor <name>
     Возможные мониторы: { $monitors }
@@ -201,7 +202,7 @@ cmd-togglelight-desc = Переключает рендеринг света.
 cmd-togglelight-help = Использование: togglelight
 cmd-togglefov-desc = Переключает поле зрения клиента.
 cmd-togglefov-help = Использование: togglefov
-cmd-togglehardfov-desc = Включает жёсткое поле зрения клиента. (для отладки space-station-14#2353)
+cmd-togglehardfov-desc = Включает жёсткое поле зрения клиента. (для Debug space-station-14#2353)
 cmd-togglehardfov-help = Использование: togglehardfov
 cmd-toggleshadows-desc = Переключение рендеринга теней.
 cmd-toggleshadows-help = Использование: toggleshadows
@@ -211,7 +212,7 @@ cmd-chunkinfo-desc = Получает информацию о чанке под 
 cmd-chunkinfo-help = Использование: chunkinfo
 cmd-rldshader-desc = Перезагружает все шейдеры.
 cmd-rldshader-help = Использование: rldshader
-cmd-cldbglyr-desc = Переключение слоёв отладки поле зрения и освещения.
+cmd-cldbglyr-desc = Переключение слоёв Debug поле зрения и освещения.
 cmd-cldbglyr-help =
     Использование: cldbglyr <layer>: Toggle <layer>
     cldbglyr: Отключить все слои
@@ -225,7 +226,7 @@ cmd-bind-help =
 cmd-bind-arg-key = <KeyName>
 cmd-bind-arg-mode = <BindMode>
 cmd-bind-arg-command = <InputCommand>
-cmd-net-draw-interp-desc = Переключает отладочный рисунок сетевой интерполяции.
+cmd-net-draw-interp-desc = Переключает визуализацию Debug сетевой интерполяции.
 cmd-net-draw-interp-help = Использование: net_draw_interp
 cmd-net-watch-ent-desc = Выводит на консоль все сетевые обновления для EntityId.
 cmd-net-watch-ent-help = Использование: net_watchent <0|EntityUid>
@@ -233,10 +234,10 @@ cmd-net-refresh-desc = Запрашивает полное состояние с
 cmd-net-refresh-help = Использование: net_refresh
 cmd-net-entity-report-desc = Переключает панель отчёта о сетевых сущностях.
 cmd-net-entity-report-help = Использование: net_entityreport
-cmd-fill-desc = Заполнить консоль для отладки.
-cmd-fill-help = Заполняет консоль всякой чепухой для отладки.
+cmd-fill-desc = Заполнить консоль для Debug.
+cmd-fill-help = Заполняет консоль всякой чепухой для Debug.
 cmd-cls-desc = Очищает консоль.
-cmd-cls-help = Очищает консоль отладки от всех сообщений.
+cmd-cls-help = Очищает консоль Debug от всех сообщений.
 cmd-sendgarbage-desc = Отправляет мусор на сервер.
 cmd-sendgarbage-help = Сервер ответит 'нет ты'.
 cmd-loadgrid-desc = Загружает грид из файла на существующую карту.
@@ -271,11 +272,11 @@ cmd-rmcomp-desc = Удаляет компонент у сущности.
 cmd-rmcomp-help = Использование: { $command } <uid> <имя компонента>
 cmd-rmcompc-desc = Удаляет компонент у сущности на клиенте.
 cmd-rmcompc-help = Использование: { $command } <uid> <имя компонента>
-cmd-addview-desc = Позволяет подписаться на просмотр сущности в целях отладки.
+cmd-addview-desc = Позволяет подписаться на просмотр сущности для Debug.
 cmd-addview-help = Использование: { $command } <entityUid>
-cmd-addviewc-desc = Позволяет подписаться на просмотр сущности в целях отладки.
+cmd-addviewc-desc = Позволяет подписаться на просмотр сущности для Debug.
 cmd-addviewc-help = Использование: { $command } <entityUid>
-cmd-removeview-desc = Позволяет отписаться от просмотра сущности в целях отладки.
+cmd-removeview-desc = Позволяет отписаться от просмотра сущности для Debug.
 cmd-removeview-help = Использование: { $command } <entityUid>
 cmd-loglevel-desc = Изменяет уровень логирования для предоставленного sawmill.
 cmd-loglevel-help =
@@ -337,7 +338,7 @@ cmd-dumpentities-desc = Дамп списка объектов.
 cmd-dumpentities-help = Выводит список объектов с UID и прототипом.
 cmd-getcomponentregistration-desc = Получает информацию о регистрации компонента.
 cmd-getcomponentregistration-help = Использование: getcomponentregistration <имя компонента>
-cmd-showrays-desc = Переключает отладку отображения физических лучей. Необходимо указать целое число для <raylifetime>.
+cmd-showrays-desc = Переключает Debug-отображение физических лучей. Необходимо указать целое число для <raylifetime>.
 cmd-showrays-help = Использование: showrays <raylifetime>
 cmd-disconnect-desc = Немедленно отключиться от сервера и вернуться в главное меню.
 cmd-disconnect-help = Использование: disconnect
@@ -365,7 +366,7 @@ cmd-monitorinfo-desc = Информация о мониторах
 cmd-monitorinfo-help = Использование: monitorinfo <id>
 cmd-setmonitor-desc = Установить монитор
 cmd-setmonitor-help = Использование: setmonitor <id>
-cmd-physics-desc = Показывает наложение отладочной физики. Аргумент определяет наложение.
+cmd-physics-desc = Показывает наложение физики в режиме Debug. Аргумент определяет наложение.
 cmd-physics-help = Использование: physics <aabbs / com / contactnormals / contactpoints / distance / joints / shapeinfo / shapes>
 cmd-hardquit-desc = Мгновенно убивает игровой клиент.
 cmd-hardquit-help = Убивает игровой клиент мгновенно, не оставляя следов. Не говорит серверу пока.
@@ -389,7 +390,7 @@ cmd-net_graph-desc = Переключает панель статистики с
 cmd-net_graph-help = Использование: net_graph
 cmd-net_watchent-desc = Выводит в консоль все сетевые обновления для EntityId.
 cmd-net_watchent-help = Использование: net_watchent <0|EntityUid>
-cmd-net_draw_interp-desc = Включает отладочную отрисовку сетевой интерполяции.
+cmd-net_draw_interp-desc = Включает отрисовку Debug сетевой интерполяции.
 cmd-net_draw_interp-help = Использование: net_draw_interp <0|EntityUid>
 cmd-vram-desc = Отображает статистику использования видеопамяти игрой.
 cmd-vram-help = Использование: vram

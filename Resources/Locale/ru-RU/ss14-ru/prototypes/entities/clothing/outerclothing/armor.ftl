@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-ClothingOuterArmorBase = бронежилет
     .desc = Стандартный бронежилет типа I, обеспечивающий достойную защиту от большинства видов повреждений.
 ent-ClothingOuterArmorBasic = { ent-ClothingOuterArmorBase }
@@ -23,8 +25,10 @@ ent-ClothingOuterArmorHeavyRed = красный тяжёлый бронекос�
     .desc = Тяжело бронированный костюм с красными вставками, способный защитить от высокого урона.
 ent-ClothingOuterArmorMagusblue = синие доспехи магуса
     .desc = Синий бронекостюм, обеспечивающий хорошую защиту.
+    .suffix = { ent-ClothingOuterWizardBaseArmor.suffix }
 ent-ClothingOuterArmorMagusred = красные доспехи магуса
     .desc = Красный бронекостюм, обеспечивающий хорошую защиту.
+    .suffix = { ent-ClothingOuterWizardBaseArmor.suffix }
 ent-ClothingOuterArmorCaptainCarapace = панцирь капитана
     .desc = Бронированный нагрудник, обеспечивающий защиту и при этом обладающий мобильностью и гибкостью. Выдаётся только лучшим представителям станции.
 ent-ClothingOuterArmorCentcommCarapace = панцирь ЦК

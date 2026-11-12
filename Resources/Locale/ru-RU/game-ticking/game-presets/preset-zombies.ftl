@@ -1,3 +1,5 @@
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/game-ticking/game-presets/preset-zombies.ftl
+
 zombie-title = Зомби
 zombie-description = На станции появились ожившие мертвецы! Работайте сообща с другими членами экипажа, чтобы пережить эпидемию и защитить станцию.
 zombieteors-title = Зомбитеоры
@@ -10,7 +12,7 @@ zombie-infection-warning = Вы чувствуете, как зомби-виру
 zombie-infection-underway = Ваша кровь начинает сгущаться
 zombie-alone = Вы чувствуете себя совершенно одиноким.
 zombie-shuttle-call = Мы зафиксировали, что зомби захватили станцию. Аварийный шаттл был отправлен для эвакуации оставшегося персонала.
-zombie-start-announcement = Confirmed outbreak of level 7 biological hazard aboard the station. All personnel must contain the outbreak.
+zombie-start-announcement = Подтвержден 7 уровень биологической угрозы на борту станции, персонал должен предотвратить распространение заражения.
 zombie-round-end-initial-count =
     { $initialCount ->
         [one] Единственным нулевым пациентом был:

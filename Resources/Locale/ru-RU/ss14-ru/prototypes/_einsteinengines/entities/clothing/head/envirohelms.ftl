@@ -1,8 +1,5 @@
 ent-ClothingHeadEnvirohelm = плазменный экошлем
     .desc = Специальный герметичный шлем, позволяющий плазмалюдам безопасно существовать в среде с кислородом.
-ent-ClothingHeadEnvirohelmEmpty = { ent-ClothingHeadEnvirohelm }
-    .suffix = Пустой
-    .desc = { ent-ClothingHeadEnvirohelm.desc }
 ent-ClothingHeadEnvirohelmAtmos = экошлем атмосферного техника
     .desc = Космический шлем, специально разработанный для атмосферных техников-плазмалюдей, обычные фиолетовые полосы заменены синими атмосферными.
 ent-ClothingHeadEnvirohelmCargo = экошлем грузчика

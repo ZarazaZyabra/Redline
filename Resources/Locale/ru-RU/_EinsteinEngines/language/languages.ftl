@@ -1,3 +1,5 @@
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/_EinsteinEngines/language/languages.ftl
+
 language-Universal-name = Межгалактический
 language-Universal-description = Кто ты?
 language-Psychomantic-name = Психомантия
@@ -42,6 +44,8 @@ language-Chittin-name = Читин
 language-Chittin-description = Язык щелчков и жужжания, требующий антенн для полноценного воспроизведения.
 language-Xeeplian-name = Ксиплианский
 language-Xeeplian-description = Наш язык высокоразвит, эффективен и точен. В погоне за Целями Мы переняли некоторые элементы лепета низших форм жизни.
+language-Hydraspeak-name = Ги'драв'та
+language-Hydraspeak-description = Необычный язык из чириканья, дрожания и щебетаний с резкими тональными сдвигами и сменой высоты тона. Из-за птичьей природы гидракинов одно слово может одновременно означать миллион других вещей, что делает этот язык практически непостижимым даже для других птицеподобных рас.
 
 # Animal Languages
 

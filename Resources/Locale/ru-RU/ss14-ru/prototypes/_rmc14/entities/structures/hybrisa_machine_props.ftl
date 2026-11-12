@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-RMCMachinePropBase = машинное оборудование
     .desc = { ent-BaseStructure.desc }
 ent-RMCMachinePropBaseWide = { ent-RMCMachinePropBase }
@@ -37,10 +39,13 @@ ent-RMCMachinePropBig13 = { ent-RMCMachinePropBaseOverhead }
     .desc = { ent-RMCMachinePropBaseOverhead.desc }
 ent-RMCMachinePropBig11Flipped = { ent-RMCMachinePropBaseOverheadFlipped }
     .desc = { ent-RMCMachinePropBaseOverheadFlipped.desc }
+    .suffix = { ent-RMCMachinePropBaseOverheadFlipped.suffix }
 ent-RMCMachinePropBig12Flipped = { ent-RMCMachinePropBaseOverheadFlipped }
     .desc = { ent-RMCMachinePropBaseOverheadFlipped.desc }
+    .suffix = { ent-RMCMachinePropBaseOverheadFlipped.suffix }
 ent-RMCMachinePropBig13Flipped = { ent-RMCMachinePropBaseOverheadFlipped }
     .desc = { ent-RMCMachinePropBaseOverheadFlipped.desc }
+    .suffix = { ent-RMCMachinePropBaseOverheadFlipped.suffix }
 ent-RMCMachinePropSmallVent = настенная вентиляция
     .desc = { ent-RMCMachinePropBaseWall.desc }
 ent-RMCMachinePropSmallVent2 = настенная вентиляция

@@ -1,12 +1,13 @@
-ent-MeleeDebugSever = дебаг клинок
+# SPDX-License-Identifier: AGPL-3.0-or-later
+ent-MeleeDebugSever = Debug клинок
     .desc = Рассечет вас на части за долю секунды.
     .suffix = DEBUG
-ent-MeleeDebugSever100 = дебаг клинок 100урн
+ent-MeleeDebugSever100 = Debug клинок 100урн
     .desc = { ent-MeleeDebugSever.desc }
-ent-MeleeDebugSever200 = дебаг клинок 200урн
+ent-MeleeDebugSever200 = Debug клинок 200урн
     .desc = { ent-MeleeDebugSever.desc }
-ent-MeleeDebugBurner = дебаг поджигатель
+ent-MeleeDebugBurner = Debug поджигатель
     .desc = Сожжёт вас за долю секунды.
     .suffix = DEBUG
-ent-MeleeDebugBurner200 = дебаг поджигатель 200урн
+ent-MeleeDebugBurner200 = Debug поджигатель 200урн
     .desc = { ent-MeleeDebugBurner.desc }

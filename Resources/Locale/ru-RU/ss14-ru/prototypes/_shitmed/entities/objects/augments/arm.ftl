@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-BaseArmAugment = { ent-BaseAugment }
     .desc = { ent-BaseAugment.desc }
 ent-ActionAugmentOpenToolsPanel = Открыть панель инструментов
@@ -6,16 +8,22 @@ ent-BaseAugmentToolPanel = { ent-BaseArmAugment }
     .desc = { ent-BaseArmAugment.desc }
 ent-BaseAugmentElectronics = { ent-BaseElectronics }
     .desc = { ent-BaseElectronics.desc }
+    .suffix = { ent-BaseElectronics.suffix }
 ent-AugmentUtilityPanelElectronics = микросхема импланта панели инструментов
     .desc = Микросхема, которая программирует панель инструментов для хранения определённого типа предметов. Содержит инструменты электрика.
+    .suffix = { ent-BaseElectronics.suffix }
 ent-AugmentBotanyPanelElectronics = микросхема импланта панели ботанических инструментов
     .desc = Микросхема, которая программирует панель инструментов для хранения определённого типа предметов. Содержит ботанические инструменты.
+    .suffix = { ent-BaseElectronics.suffix }
 ent-AugmentSurgeryPanelElectronics = микросхема импланта панели хирургических инструментов
     .desc = Микросхема, которая программирует панель инструментов для хранения определённого типа предметов. Содержит хирургические инструменты.
+    .suffix = { ent-BaseElectronics.suffix }
 ent-AugmentPaperworkPanelElectronics = микросхема импланта панели канцелярских принадлежностей
     .desc = Микросхема, которая программирует панель инструментов для хранения определённого типа предметов. Содержит канцелярские инструменты.
+    .suffix = { ent-BaseElectronics.suffix }
 ent-AugmentStrengthElectronics = микросхема импланта силы
     .desc = Микросхема, контролирующая имплант силы.
+    .suffix = { ent-BaseElectronics.suffix }
 ent-BaseIncompleteAugmentToolPanel = { ent-BaseItem }
     .desc = Может быть встроена в тело для доступа к определённым инструментам. Незавершённая.
 ent-AugmentToolPanelCasing = каркас импланта панели инструментов

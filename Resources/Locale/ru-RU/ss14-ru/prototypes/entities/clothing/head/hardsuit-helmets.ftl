@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-ClothingHeadHelmetHardsuitAtmos = шлем скафандра атмос-техника
     .desc = Специальный шлем скафандра, предназначенный для работы в условиях низкого давления и высокой температуры.
 ent-ClothingHeadHelmetHardsuitCap = шлем скафандра капитана
@@ -40,6 +42,7 @@ ent-ClothingHeadHelmetHardsuitCybersun = шлем джаггернаута Cyber
     .desc = Изготовленный из спрессованной красной материи, этот шлем был разработан в хромосферном комплексе Тау.
 ent-ClothingHeadHelmetHardsuitWizard = шлем скафандра волшебника
     .desc = Причудливый шлем, инкрустированный драгоценными камнями, излучающий магическую энергию.
+    .suffix = { ent-ClothingHeadHatWizardBaseArmor.suffix }
 ent-ClothingHeadHelmetHardsuitLing = органический космический шлем
     .desc = Устойчивая к космическому давлению и температуре биомасса.
 ent-ClothingHeadHelmetHardsuitSpatio = шлем лёгкого скафандра утилизатора

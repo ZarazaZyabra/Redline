@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-BaseSecretDoor = обычная стена
     .desc = Удерживает воздух внутри, а ассистентов снаружи.
     .suffix = Потайная дверь
@@ -5,3 +7,4 @@ ent-BaseSecretDoorAssembly = каркас потайной двери
     .desc = Он открывается, он закрывается и он может вас раздавить.
 ent-SolidSecretDoor = обычная стена
     .desc = { ent-BaseSecretDoor.desc }
+    .suffix = { ent-BaseSecretDoor.suffix }

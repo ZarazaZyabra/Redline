@@ -1,3 +1,5 @@
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/_Imp/Mobs/Customization/vox.ftl
+
 # Chest
 
 marking-ScarsVoxClawTorso = Царапина от когтя
@@ -199,8 +201,8 @@ marking-VoxFootSpines = Шипы на ногах
 marking-VoxFootSpines-footspines = Шипы на ногах
 marking-VoxTailBack = Задний хвост
 marking-VoxBackTail-colorable = Задний хвост
-marking-VoxTailBalled = Thrasher
-marking-VoxTailBalled-balled = Thrasher
+marking-VoxTailBalled = Трешер
+marking-VoxTailBalled-balled = Трешер
 marking-VoxTailBell = Колокольчик
 marking-VoxTailBell-bell1 = Колокольчик
 marking-VoxTailBell-bell2 = Задний хвост

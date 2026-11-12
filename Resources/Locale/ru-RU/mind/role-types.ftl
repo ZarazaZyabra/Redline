@@ -1,3 +1,5 @@
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/mind/role-types.ftl
+
 role-type-crew-aligned-name = Экипаж или их союзник
 role-type-solo-antagonist-name = Соло-антагонист
 role-type-team-antagonist-name = Командный антагонист
@@ -22,7 +24,7 @@ role-subtype-ninja = Ниндзя
 role-subtype-nukie = Ядерный Оперативник
 role-subtype-traitor-reinforcement = Поддержка
 role-subtype-revolutionary = Революционер
-role-subtype-head-revolutionary = Глава РеВОЛЮЦИИ
+role-subtype-head-revolutionary = Глава Революции
 role-subtype-initial-infected = Нулевой заражённый
 role-subtype-zombie = Зомби
 role-subtype-dragon = Дракон

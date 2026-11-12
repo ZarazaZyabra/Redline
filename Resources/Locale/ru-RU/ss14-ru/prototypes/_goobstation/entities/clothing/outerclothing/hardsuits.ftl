@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-ClothingOuterHardsuitChronolegioneer = футуристический пустотный костюм
     .desc = Пустотный костюм, покрытый неизвестным материалом, защищающий от большинства материальных и временных повреждений.
 ent-ClothingOuterHardsuitChronolegioneerUnremoveable = { ent-ClothingOuterHardsuitChronolegioneer }
@@ -20,6 +22,7 @@ ent-ClothingSingulothArmor = доспехи рыцаря Сингулота
     .desc = Церемониальные доспехи ордена рыцарей Сингулота, Сделаны из чистого, кованого адамантиума.
 ent-ClothingOuterHardsuitVoxRaiderStealth = пустотный скафандр вокса налётчика
     .desc = Гладкий, чёрный костюм. Кажется, он очень тяжёлый, и у него есть хвост.
+    .suffix = { ent-ClothingOuterHardsuitCybersunStealth.suffix }
 ent-ClothingOuterHardsuitDetective = скафандр детектива
     .desc = Скафандр, изготовленный на заказ для Детектива. Смердит алкоголем и сигаретами.
 ent-ClothingOuterHardsuitContractor = скафандр Наёмника

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
 ## General stuff
 
 ui-options-title = Игровые настройки
@@ -215,7 +216,7 @@ ui-options-function-editor-rotate-object = Повернуть
 ui-options-function-editor-flip-object = Перевернуть
 ui-options-function-editor-copy-object = Копировать
 ui-options-function-show-debug-console = Открыть консоль
-ui-options-function-show-debug-monitors = Показать дебаг информацию
+ui-options-function-show-debug-monitors = Показать Debug информацию
 ui-options-function-inspect-entity = Изучить сущность
 ui-options-function-hide-ui = Спрятать интерфейс
 ui-options-function-hotbar1 = Слот хотбара 1

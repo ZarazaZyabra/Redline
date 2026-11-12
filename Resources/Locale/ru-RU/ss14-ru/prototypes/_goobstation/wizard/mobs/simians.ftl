@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-MobGorillaAngry = { ent-MobGorilla }
     .suffix = Злой
     .desc = { ent-MobGorilla.desc }
@@ -12,6 +14,7 @@ ent-MobMonkeyAngry = обезьяна
     .suffix = Злая
 ent-MobKoboldAngry = кобольд
     .desc = Двоюродные братья разумной расы людей-ящеров. Кобольды сливаются с естественной средой обитания и мерзки как обезьяны; готовы выдрать вам волосы и заколоть насмерть.
+    .suffix = { ent-SimpleMobBase.suffix }
 ent-MobMonkeyAngryTemp = { ent-MobMonkeyAngry }
     .suffix = Злая, Младшая, Временная
     .desc = { ent-MobMonkeyAngry.desc }

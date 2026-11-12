@@ -1,3 +1,5 @@
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/_Goobstation/supermatter/supermatter-console.ftl
+
 supermatter-console-window-title = Консоль мониторинга Суперматерии
 supermatter-console-window-station-name = [color=white][font size=14]{ $stationName }[/font][/color]
 supermatter-console-window-unknown-location = Неизвестное местоположение
@@ -21,7 +23,7 @@ supermatter-console-window-label-radiation-bar = { $radiation } зиверт
 supermatter-console-window-label-moles = Поглощённые молли:
 supermatter-console-window-label-moles-bar = { $moles } молей
 supermatter-console-window-label-temperature = Температура:
-supermatter-console-window-label-temperature-limit = Temperature Limit:
+supermatter-console-window-label-temperature-limit = Предельное значение:
 supermatter-console-window-label-temperature-bar = { $temperature } К
 supermatter-console-window-label-waste = Множитель отходов:
 supermatter-console-window-label-waste-bar = { $waste } x

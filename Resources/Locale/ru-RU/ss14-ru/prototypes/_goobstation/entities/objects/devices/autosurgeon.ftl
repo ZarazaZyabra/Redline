@@ -1,9 +1,6 @@
 ent-BaseAutosurgeon = { ent-BaseStructure }
     .desc = Одноразовая автооперация для замены или улучшения ваших частей кибернетическими имплантами. Разорвите эту станцию и сделайте её частью себя.
-ent-BaseAutosurgeonSingle = { ent-BaseAutosurgeon }
-    .desc = A single-use autosurgeon for replacing or upgrading your parts with cybernetic implants. Rip that station apart and make it a part of you.
-ent-BaseAutosurgeonMultiple = { ent-BaseAutosurgeon }
-    .desc = A single-use autosurgeon for replacing or upgrading your parts with cybernetic implants. Rip that station apart and make it a part of you.
+# Single and Multiple descriptions are defined in ru-RU/_Redline/ss14-ru/prototypes/_goobstation/entities/objects/devices/autosurgeon.ftl.
 ent-BaseAutosurgeonSyndicateSingle = { ent-BaseAutosurgeonSingle }
     .desc = { ent-BaseAutosurgeonSingle.desc }
 ent-BaseAutosurgeonSyndicateMultiple = { ent-BaseAutosurgeonMultiple }

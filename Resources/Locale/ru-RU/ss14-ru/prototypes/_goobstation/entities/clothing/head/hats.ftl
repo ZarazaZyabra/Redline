@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-ClothingHeadHatBeretEliteNavyOfficer = элитный берет офицера ЦК
     .desc = Тёмно-синий берет с серебряным щитом сил безопасности NanoTrasen.
 ent-ClothingHeadHatBeretNavyOfficer = берет офицера ЦК
@@ -16,6 +18,7 @@ ent-ClothingHeadHatPropeller = шапка с пропеллером
     .desc = Ох, ну надо же!
 ent-ClothingHeadHatPropellerFlipped = шапка с пропеллером
     .desc = { ent-ClothingHeadHatPropeller.desc }
+    .suffix = { ent-ClothingHeadHeadHatBaseFlipped.suffix }
 ent-ClothingHeadHatImam = головной убор имама
     .desc = Хвала Аллаху.
 ent-ClothingHeadHatTrainer = шапка наставника

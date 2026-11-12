@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-ImmovableRod = неподвижный жезл
     .desc = Вы чувствуете, что он голоден. Как правило, это плохой знак.
 ent-ImmovableRodDespawn = { ent-ImmovableRod }
@@ -17,17 +19,25 @@ ent-ImmovableRodKeepTilesStill = { ent-ImmovableRodKeepTiles }
     .desc = { ent-ImmovableRodKeepTiles.desc }
 ent-ImmovableRodMop = неподвижная швабра
     .desc = Поражает как дротик, брошенный с силой тысячи разъярённых уборщиков.
+    .suffix = { ent-ImmovableRodKeepTiles.suffix }
 ent-ImmovableRodShark = неподвижная акула
     .desc = АКУЛИЙ ТОРНАДО!
+    .suffix = { ent-ImmovableRodKeepTiles.suffix }
 ent-ImmovableRodClown = неподвижный клоун
     .desc = Выброшен с другой космической станции в соседней солнечной системе. ХОНК!
+    .suffix = { ent-ImmovableRodKeepTiles.suffix }
 ent-ImmovableRodBanana = неподвижный банан
     .desc = По крайней мере, на нём не поскользнёшься.
+    .suffix = { ent-ImmovableRodKeepTiles.suffix }
 ent-ImmovableRodHammer = неподвижный молот
     .desc = Бвоинк.
+    .suffix = { ent-ImmovableRodKeepTiles.suffix }
 ent-ImmovableRodThrongler = неподвижный нагибатор
     .desc = Поймаете — можете оставить себе.
+    .suffix = { ent-ImmovableRodKeepTiles.suffix }
 ent-ImmovableRodGibstick = неподвижная гиб-палка
     .desc = А чего вы ожидали?
+    .suffix = { ent-ImmovableRodKeepTiles.suffix }
 ent-ImmovableRodWeh = неподвижный вех
     .desc = ВЕХ!
+    .suffix = { ent-ImmovableRodKeepTiles.suffix }

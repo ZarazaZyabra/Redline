@@ -1,8 +1,10 @@
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/kitchen/components/kitchen-spike-component.ftl
+
 comp-kitchen-spike-deny-collect = { CAPITALIZE($this) } уже чем-то занят, сначала закончите срезать мясо!
 comp-kitchen-spike-deny-butcher = { CAPITALIZE($victim) } не может быть разделан на { $this }.
 comp-kitchen-spike-deny-butcher-knife = { CAPITALIZE($victim) } не может быть разделан на { $this }, используйте нож для разделки.
-comp-kitchen-spike-deny-changeling = { CAPITALIZE($victim) } resists being put on { $this }.
-comp-kitchen-spike-deny-absorbed = { CAPITALIZE($victim) } has nothing left to butcher.
+comp-kitchen-spike-deny-changeling = { CAPITALIZE($victim) } сопротивляется своей участи { $this }.
+comp-kitchen-spike-deny-absorbed = { CAPITALIZE($victim) } не осталось ничего для разделки.
 comp-kitchen-spike-deny-not-dead =
     { CAPITALIZE($victim) } не может быть разделан. { CAPITALIZE(SUBJECT($victim)) } { GENDER($victim) ->
         [male] ещё жив

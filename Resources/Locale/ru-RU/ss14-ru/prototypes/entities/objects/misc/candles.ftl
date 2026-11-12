@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-Candle = свеча
     .desc = Тонкий фитиль, пропущенный через жир.
 ent-CandleRed = красная свеча
@@ -27,21 +29,31 @@ ent-CandleInfinite = волшебная свеча
     .suffix = Декорация
 ent-CandleRedInfinite = волшебная красная свеча
     .desc = { ent-CandleInfinite.desc }
+    .suffix = { ent-CandleInfinite.suffix }
 ent-CandleBlueInfinite = волшебная синяя свеча
     .desc = { ent-CandleInfinite.desc }
+    .suffix = { ent-CandleInfinite.suffix }
 ent-CandleBlackInfinite = волшебная чёрная свеча
     .desc = { ent-CandleInfinite.desc }
+    .suffix = { ent-CandleInfinite.suffix }
 ent-CandleGreenInfinite = волшебная зелёная свеча
     .desc = { ent-CandleInfinite.desc }
+    .suffix = { ent-CandleInfinite.suffix }
 ent-CandlePurpleInfinite = волшебная фиолетовая свеча
     .desc = { ent-CandleInfinite.desc }
+    .suffix = { ent-CandleInfinite.suffix }
 ent-CandleRedSmallInfinite = маленькая волшебная красная свеча
     .desc = { ent-CandleInfinite.desc }
+    .suffix = { ent-CandleInfinite.suffix }
 ent-CandleBlueSmallInfinite = маленькая волшебная синяя свеча
     .desc = { ent-CandleInfinite.desc }
+    .suffix = { ent-CandleInfinite.suffix }
 ent-CandleBlackSmallInfinite = маленькая волшебная чёрная свеча
     .desc = { ent-CandleInfinite.desc }
+    .suffix = { ent-CandleInfinite.suffix }
 ent-CandleGreenSmallInfinite = маленькая волшебная зелёная свеча
     .desc = { ent-CandleInfinite.desc }
+    .suffix = { ent-CandleInfinite.suffix }
 ent-CandlePurpleSmallInfinite = маленькая волшебная фиолетовая свеча
     .desc = { ent-CandleInfinite.desc }
+    .suffix = { ent-CandleInfinite.suffix }

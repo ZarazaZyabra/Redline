@@ -1,10 +1,14 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-MobRatKing = крысиный король
     .desc = Он крысюк и он тут босс.
+    .suffix = { ent-SimpleMobBase.suffix }
 ent-MobRatKingBuff = { ent-MobRatKing }
     .suffix = Качок
     .desc = { ent-MobRatKing.desc }
 ent-MobRatServant = крысиный слуга
     .desc = Он мини-крысюк и он тут не босс.
+    .suffix = { ent-SimpleMobBase.suffix }
 ent-ActionRatKingRaiseArmy = Призвать армию
     .desc = Потратьте некоторое количество голода, чтобы призвать дружественную крысу для вашей защиты.
 ent-ActionRatKingDomain = Крысиное королевство

@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-FoodBoxDonut = коробка пончиков
     .desc = Ммм, пончики.
 ent-FoodContainerEgg = картонная упаковка яиц
@@ -49,10 +51,12 @@ ent-HappyHonkNukieSnacks = коробка закусок Синдиката
     .desc = { ent-HappyHonkNukie.desc }
 ent-HappyHonkCluwne = обед Жалкий Клувень
     .desc = Ничего хорошего из этого не выйдет.
+    .suffix = { ent-HappyHonk.suffix }
 ent-FoodMealHappyHonkClown = { ent-HappyHonk }
     .suffix = Спавнер случайный обед
     .desc = { ent-HappyHonk.desc }
 ent-FoodMealHappyHonkBigBite = обед Хэппи Хонк Большой бургер
     .desc = Кто-то заплатил неплохие деньги за доставку этой еды из фастфуда именно таким способом. На удивление, пахнет свежо.
+    .suffix = { ent-HappyHonk.suffix }
 ent-FoodBoxCloth = коробка ткани бренда FlutterSoft
     .desc = Волокно — это самая важная порция пищи для моли! Не пропускайте её и не используйте хлам из нижних ящиков, а покупайте высококачественную ткань бренда FlutterSoft.

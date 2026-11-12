@@ -1,3 +1,5 @@
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/store/uplink-catalog.ftl
+
 # Weapons
 uplink-pistol-viper-name = Гадюка
 uplink-pistol-viper-desc = Небольшой, легко скрываемый, но маломощный пистолет. Оснащён полностью автоматическим ресивером. Использует патроны калибра .35 авто.
@@ -177,9 +179,9 @@ uplink-l6-saw-bundle-desc = Ещё больше дакки: культовый �
 uplink-zombie-bundle-name = Зомби-набор Синдиката
 uplink-zombie-bundle-desc = Универсальный набор для создания зомби на станции.
 uplink-surplus-bundle-name = Ящик припасов Синдиката
-uplink-surplus-bundle-desc = Содержит случайное снаряжение Синдиката, общей стоимостью в 50 телекристаллов. Оно может быть как бесполезным хламом, так и реально крутым.
+uplink-surplus-bundle-desc = Содержит случайное снаряжение Синдиката, общей стоимостью в 250 телекристаллов. Оно может быть как бесполезным хламом, так и реально крутым.
 uplink-super-surplus-bundle-name = Ящик суперприпасов Синдиката
-uplink-super-surplus-bundle-desc = Содержит случайное снаряжение Синдиката, общей стоимостью в 125 телекристаллов.
+uplink-super-surplus-bundle-desc = Содержит случайное снаряжение Синдиката, общей стоимостью в 625 телекристаллов.
 # Tools
 uplink-toolbox-name = Ящик инструментов
 uplink-starter-kit-name = Базовый пакет Оперативника

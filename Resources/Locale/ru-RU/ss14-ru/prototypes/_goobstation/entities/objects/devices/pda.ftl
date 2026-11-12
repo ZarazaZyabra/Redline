@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-ChronoPDA = КПК будущего
     .desc = Мощный квантовый компьютер, замаскированный для маскировки под обычный КПК.
+    .suffix = { ent-AdminPDA.suffix }
 ent-GmanPDA = странный КПК
     .desc = Ваш разум не может до конца постичь это.
+    .suffix = { ent-AdminPDA.suffix }
 ent-HelldiverPDA = КПК спасателя
     .desc = Пахнет трупами насекомых и андроидов.
 ent-HecuPDA = КПК HECU

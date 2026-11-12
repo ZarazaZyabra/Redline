@@ -1,7 +1,9 @@
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/guidebook/entity-effects/statuseffects.ftl
+
 entity-effect-status-effect-Stun = оглушение
 entity-effect-status-effect-KnockedDown = нокаут
 entity-effect-status-effect-Jitter = дрожание
-entity-effect-status-effect-TemporaryBlindness = blindness
+entity-effect-status-effect-TemporaryBlindness = слепота
 entity-effect-status-effect-SeeingRainbows = галлюцинации
 entity-effect-status-effect-Muted = невозможность говорить
 entity-effect-status-effect-Stutter = заикание

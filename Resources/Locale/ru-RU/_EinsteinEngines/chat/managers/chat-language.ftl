@@ -1,3 +1,5 @@
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/_EinsteinEngines/chat/managers/chat-language.ftl
+
 chat-language-Universal-name = Межгалактический
 chat-language-Psychomantic-name = Психомантия
 chat-language-Bubblish-name = Булькяз
@@ -20,6 +22,7 @@ chat-language-Sign-name = Жесты
 chat-language-Marish-name = Мариш
 chat-language-Chittin-name = Читин
 chat-language-Xeeplian-name = Ксиплианский
+chat-language-Hydraspeak-name = Ги'драв'та
 
 # Дополнительные языки
 

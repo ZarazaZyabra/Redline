@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-BasePDA = КПК
     .desc = Ассистент по персональным данным.
 ent-BaseWidePDA = { ent-BasePDA }
@@ -124,6 +126,7 @@ ent-ERTSecurityPDA = КПК офицера безопасности ОБР
     .desc = Красный значит мощный. На боку нацарапаны метки подсчёта.
 ent-CBURNPDA = КПК РХБЗЗ
     .desc = Пахнет гнилой плотью.
+    .suffix = { ent-ERTLeaderPDA.suffix }
 ent-PsychologistPDA = КПК психолога
     .desc = Выглядит безупречно чистым.
 ent-ReporterPDA = КПК репортёра

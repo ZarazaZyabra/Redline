@@ -1,3 +1,5 @@
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/ss14-ru/prototypes/entities/structures/walls/walls.ftl
+
 ent-BaseStructureWall = базовая стена
     .desc = Удерживает воздух внутри, а грейтайдеров снаружи.
 ent-BaseWall = базовая стена
@@ -107,7 +109,7 @@ ent-Cardwall = картонная стена
 ent-WallAndesiteCobblebrick = андезитовая булыжниковая стена
     .desc = { ent-WallCobblebrick.desc }
 
-ent-WallXenoborg = ксеноборг-стена
+ent-WallXenoborg = мехадермическая стена
     .desc = { ent-WallPlastitanium.desc }
     .suffix = { ent-WallPlastitanium.suffix }
 

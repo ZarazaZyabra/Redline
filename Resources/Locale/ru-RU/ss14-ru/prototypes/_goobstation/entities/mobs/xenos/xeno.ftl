@@ -1,21 +1,32 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-CMBaseXeno = древний ксеноморф
     .desc = Инопланетный дрон.
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
 ent-CMMobXenoDrone = древний Дрон
     .desc = { ent-CMBaseXeno.desc }
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
 ent-CMMobXenoBurrower = древний Бурильщик
     .desc = Мускулистый ксено с острыми когтями.
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
 ent-CMMobXenoWarrior = древний Воитель
     .desc = Мускулистый ксено с бронёным панцирем.
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
 ent-CMMobXenoCrusher = древний Дробитель
     .desc = Огромный ксено с массивным бронированным гребнем.
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
 ent-CMMobXenoRavager = древний Разрушитель
     .desc = Огромный злобный красный ксено с гигантскими серповидными когтями.
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
 ent-CMMobXenoKing = древний Король
     .desc = Огромный ксено, покрытый шипами и бронированными пластинами.
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
 ent-CMMobXenoQueen = древняя Королева
     .desc = Королева во всей своей славе.
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
 ent-CMMobXenoRogueKing = древний Король-отступник
     .desc = Долгие годы в изоляции сделали этого Короля непреодолимой машиной для убийства.
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
 ent-CMMobXenoDroneSentient = { ent-CMMobXenoDrone }
     .suffix = Роль призрака
     .desc = { ent-CMMobXenoDrone.desc }

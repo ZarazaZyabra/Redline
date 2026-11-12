@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-BasePowerCell = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-PowerCellPotato = картофельная батарея
@@ -10,6 +12,7 @@ ent-PowerCellSmallPrinted = { ent-PowerCellSmall }
     .desc = { ent-PowerCellSmall.desc }
 ent-PowerCellSmallNuclear = ядерная батарея малой ёмкости
     .desc = Самозаряжаемый элемент питания, разработанный для быстрой зарядки за счёт уменьшения ёмкости.
+    .suffix = { ent-PowerCellSmall.suffix }
 ent-PowerCellMedium = батарея средней ёмкости
     .desc = Перезаряжаемый элемент питания. Популярный и надёжный вариант.
     .suffix = Полный

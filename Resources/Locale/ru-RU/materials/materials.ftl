@@ -1,3 +1,5 @@
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/materials/materials.ftl
+
 # Glass
 materials-glass = стекло
 materials-reinforced-glass = бронестекло
@@ -10,6 +12,7 @@ materials-reinforced-uranium-glass = укреплённое урановое с�
 materials-gold = золото
 materials-silver = серебро
 materials-plasteel = пласталь
+materials-brass = латунь
 # Other
 materials-biomass = биомасса
 materials-cardboard = картон

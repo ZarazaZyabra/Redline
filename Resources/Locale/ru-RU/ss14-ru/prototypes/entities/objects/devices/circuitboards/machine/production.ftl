@@ -1,3 +1,5 @@
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/ss14-ru/prototypes/entities/objects/devices/circuitboards/machine/production.ftl
+
 ent-AutolatheMachineCircuitboard = автолат (машинная плата)
     .desc = Печатная плата автолата.
     .suffix = { ent-BaseMachineCircuitboard.suffix }
@@ -247,7 +249,7 @@ ent-ReagentGrinderIndustrialMachineCircuitboard = промышленный из�
 ent-MedicalBiofabMachineBoard = медицинский биофабрикатор (машинная плата)
     .desc = Печатная плата медицинского биофабрикатора.
     .suffix = { ent-BaseMachineCircuitboard.suffix }
-ent-CutterMachineCircuitboard = резательный станок (машинная плата)
+ent-CutterMachineCircuitboard = Плиткорез 4000 (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
     .suffix = { ent-BaseMachineCircuitboard.suffix }
 

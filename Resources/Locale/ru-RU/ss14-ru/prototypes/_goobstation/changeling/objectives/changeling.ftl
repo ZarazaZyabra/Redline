@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/ss14-ru/prototypes/_goobstation/changeling/objectives/changeling.ftl
+
 ent-BaseChangelingObjective = { ent-BaseObjective }
     .desc = { ent-BaseObjective.desc }
 ent-BaseChangelingSyndicateObjective = { ent-BaseObjective }
@@ -15,7 +18,7 @@ ent-EscapeIdentityObjective = { ent-BaseChangelingObjective }
 ent-ChangelingStealObjective = { ent-BaseChangelingSyndicateObjective }
     .desc = { ent-BaseChangelingSyndicateObjective.desc }
 ent-LingKillRandomHeadObjective = { ent-BaseChangelingSyndicateObjective }
-    .desc = Our worshippers requested we eliminate this high value target.
+    .desc = { -redline-changeling-kill-head-objective-description }
 ent-LingCMOStealObjective = { ent-ChangelingStealObjective }
     .desc = { ent-ChangelingStealObjective.desc }
 ent-LingCMOHyposprayStealObjective = { ent-LingCMOStealObjective }

@@ -1,8 +1,9 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
 admin-solutions-window-title = Редактирование раствора - { $targetName }
 admin-solutions-window-solution-label = Целевой раствор:
 admin-solutions-window-add-new-button = Добавить новый реагент
 admin-solutions-window-solution-button = Раствор
-admin-solutions-window-solution-button-tooltip = Открывает соответствующий экземпляр серверного Solution в ViewVariables. Полезно для отладки.
+admin-solutions-window-solution-button-tooltip = Открывает соответствующий экземпляр серверного Solution в ViewVariables. Полезно для Debug.
 admin-solutions-window-vv-button = View Variables
 admin-solutions-window-vv-button-tooltip = Открывает соответствующую сущность в ViewVariables.
 admin-solutions-window-volume-label = Объём { $currentVolume }/{ $maxVolume } ед.

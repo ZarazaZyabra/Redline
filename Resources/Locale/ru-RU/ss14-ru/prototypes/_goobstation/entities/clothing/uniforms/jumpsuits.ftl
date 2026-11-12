@@ -1,3 +1,5 @@
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/ss14-ru/prototypes/_goobstation/entities/clothing/uniforms/jumpsuits.ftl
+
 ent-ClothingUniformJumpsuitDurathread = комбинезон из дюратнки
     .desc = Свободная изношенная дюратнковая рубашка с серыми штанами, прочные волокна обеспечивают защиту носителю.
 ent-ClothingUniformJumpsuitResonant = резонантный комбинезон
@@ -17,7 +19,7 @@ ent-ClothingUniformJumpsuitCasualCommand = повседневный команд
 ent-ClothingUniformJumpsuitCasualEngineer = повседневный инженерный комбинезон
     .desc = Искры? Стекловолокно? И что с того?
 ent-ClothingUniformJumpsuitBlueshieldOfficer = комбинезон офицера офицера "Синий Щит"
-    .desc = Серо-голубой комбинезон с короткими рукавами из прочного материала. Стандартное снаряжение офицера офицера "Синий Щит".
+    .desc = Серо-голубой комбинезон с короткими рукавами из прочного материала. Стандартное снаряжение офицера "Синий Щит".
 ent-ClothingUniformJumpsuitBlueshieldShirt = синяя рубашка офицера офицера "Синий Щит"
     .desc = Официальная форма службы безопасности. Надежная и загруженная.
 ent-ClothingUniformMailCarrier = форма почтальона

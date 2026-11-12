@@ -1,11 +1,14 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/ss14-ru/prototypes/_einsteinengines/entities/clothing/hands/envirogloves.ftl
+
 ent-ClothingHandsGlovesEnvirogloves = экоперчатки плазменные
     .desc = Скрывают эти вызывающе костлявые руки.
 ent-ClothingHandsGlovesEnviroglovesBlack = черные экоперчатки
     .desc = Скрывают эти вызывающе костлявые руки.
 ent-ClothingHandsGlovesEnviroglovesCombat = боевые экоперчатки
-    .desc = Specially designed envirogloves for combat and shock-protection.
+    .desc = { -redline-plasmaman-combat-gloves-description }
 ent-ClothingHandsGlovesEnviroglovesNitrile = нитриловые экоперчатки
-    .desc = Pricy nitrile gloves made for Plasmamen.
+    .desc = { -redline-plasmaman-nitrile-gloves-description }
 ent-ClothingHandsGlovesEnviroglovesWhite = белые экоперчатки
     .desc = Скрывают эти вызывающе костлявые руки.
 ent-ClothingHandsGlovesEnviroglovesColor = экоперчатки

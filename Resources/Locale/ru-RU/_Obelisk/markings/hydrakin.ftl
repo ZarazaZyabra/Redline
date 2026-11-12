@@ -1,71 +1,118 @@
-marking-HydrakinEyesDefault = Default Eyes
-marking-HydrakinEyesHex = Hex Eyes
-marking-HydrakinEyesOmega = Omega Eyes
-marking-HydrakinEyesQuad = Quad Eyes
-marking-HydrakinEyesRing = Ring Eyes
-marking-HydrakinEyesSaint = Saint Eyes
+# Source: https://github.com/space-syndicate/Goob-Station/blob/fc2f0ba5e2a0b49e5f31d94369595b8632be6ee4/Resources/Locale/ru-RU/_Obelisk/markings/hydrakin.ftl
+# SPDX-License-Identifier: AGPL-3.0-or-later
 
-marking-HydrakinTailDefault = Tail
-marking-HydrakinTailNub = Nub
-marking-HydrakinTailFeathers = Feathered
-marking-HydrakinTailSpiny = Spiny
-marking-HydrakinTailFins = Fins
+marking-HydrakinEyesDefault = Обычные глаза
 
-marking-HydrakinEarsDefault = Default Ears
-marking-HydrakinEarsOld = Thin Ears
-marking-HydrakinEarsFin = Fin Ears
-marking-HydrakinEarsFrilled = Frilled Ears
+marking-HydrakinEyesHex = Шестигранные глаза
 
-marking-HydrakinProtoChest = Cyberkin
+marking-HydrakinEyesOmega = Омега глаза
 
-marking-HydrakinProtoLeftArm = Cyberkin Left
-marking-HydrakinProtoRightArm = Cyberkin Right
+marking-HydrakinEyesQuad = Четверные глаза
 
-marking-HydrakinProtoLeftLeg = Cyberkin Left
-marking-HydrakinProtoRightLeg = Cyberkin Right
+marking-HydrakinEyesRing = Кольцевые глаза
 
-marking-HydrakinProtoVisor = Visor
-marking-HydrakinProtoFace1 = Ring Display
-marking-HydrakinProtoFace2 = Serious Display
-marking-HydrakinProtoFace3 = Devilish Display
-marking-HydrakinProtoFace4 = Sad Display
-marking-HydrakinProtoFace5 = Chill Display
+marking-HydrakinEyesSaint = Святые глаза
 
-marking-HydrakinEnforcerHead = Enforcer Head
-marking-HydrakinEnforcerChest = Enforcer Chest
-marking-HydrakinEnforcerLeftArm = Enforcer Left
-marking-HydrakinEnforcerRightArm = Enforcer Right
-marking-HydrakinEnforcerLeftLeg = Enforcer Left
-marking-HydrakinEnforcerRightLeg = Enforcer Right
+marking-HydrakinTailFeathers = Перистый
 
-marking-HydrakinHydraFaceMask = Hydra Faceplate
-marking-HydrakinHydraSeerMarking = Hydra Seer Marking
-marking-HydrakinHydraMantleMaw = Mantle Maw
-marking-HydrakinHydraUnderbelly = Hydra Underbelly
-marking-HydrakinHydraLeftArm = Hydra Left
-marking-HydrakinHydraRightArm = Hydra Right
-marking-HydrakinHydraLeftLeg = Hydra Left
-marking-HydrakinHydraRightLeg = Hydra Right
-marking-HydrakinHydraTailFeathers = Hydra Tail Feathers
-marking-HydrakinHydraSeerEars = Seer Ears
+marking-HydrakinTailSpiny = Шипастый
 
-marking-HydrakinMysticHead = Mystic Head
-marking-HydrakinMysticChest = Mystic Chest
-marking-HydrakinMysticLeftArm = Mystic Left
-marking-HydrakinMysticRightArm = Mystic Right
-marking-HydrakinMysticLeftLeg = Mystic Left
-marking-HydrakinMysticRightLeg = Mystic Right
+marking-HydrakinTailFins = Плавники
 
-marking-HydrakinRebelHead = Rebel Head
-marking-HydrakinRebelChest = Rebel Chest
-marking-HydrakinRebelLeftArm = Rebel Left
-marking-HydrakinRebelRightArm = Rebel Right
-marking-HydrakinRebelLeftLeg = Rebel Left
-marking-HydrakinRebelRightLeg = Rebel Right
+marking-HydrakinEarsDefault = Обычные уши
 
-marking-HydrakinTribalHead = Tribal Head
-marking-HydrakinTribalChest = Tribal Chest
-marking-HydrakinTribalLeftArm = Tribal Left
-marking-HydrakinTribalRightArm = Tribal Right
-marking-HydrakinTribalLeftLeg = Tribal Left
-marking-HydrakinTribalRightLeg = Tribal Right
+marking-HydrakinEarsOld = Тонкие уши
+
+marking-HydrakinEarsFin = Плавниковые уши
+
+marking-HydrakinEarsFrilled = Воротникообразные уши
+
+marking-HydrakinProtoChest = Киберкин
+
+marking-HydrakinProtoLeftArm = Киберкин, Левая рука
+
+marking-HydrakinProtoRightArm = Киберкин, Правая рука
+
+marking-HydrakinProtoLeftLeg = Киберкин, Левая нога
+
+marking-HydrakinProtoRightLeg = Киберкин, Правая нога
+
+marking-HydrakinProtoVisor = Визор
+
+marking-HydrakinProtoFace1 = Кольцевой дисплей
+
+marking-HydrakinProtoFace2 = Серьезный дисплей
+
+marking-HydrakinProtoFace3 = Коварный дисплей
+
+marking-HydrakinProtoFace4 = Грустный дисплей
+
+marking-HydrakinProtoFace5 = Расслабленный дисплей
+
+marking-HydrakinEnforcerHead = Силовик, Голова
+
+marking-HydrakinEnforcerChest = Силовик, Грудь
+
+marking-HydrakinEnforcerLeftArm = Силовик, Левая рука
+
+marking-HydrakinEnforcerRightArm = Силовик, Правая рука
+
+marking-HydrakinEnforcerLeftLeg = Силовик, Левая нога
+
+marking-HydrakinEnforcerRightLeg = Силовик, Правая нога
+
+marking-HydrakinHydraFaceMask = Гидра, Лицевая панель
+
+marking-HydrakinHydraSeerMarking = Гидра, Глаза провидца
+
+marking-HydrakinHydraMantleMaw = Гидра, Мантийная пасть
+
+marking-HydrakinHydraUnderbelly = Гидра, Грудь
+
+marking-HydrakinHydraLeftArm = Гидра, Левая рука
+
+marking-HydrakinHydraRightArm = Гидра, Правая рука
+
+marking-HydrakinHydraLeftLeg = Гидра, Левая нога
+
+marking-HydrakinHydraRightLeg = Гидра, Правая нога
+
+marking-HydrakinHydraTailFeathers = Гидра, Перистый хвост
+
+marking-HydrakinHydraSeerEars = Гидра, Уши провидца
+
+marking-HydrakinMysticHead = Мистик, Голова
+
+marking-HydrakinMysticChest = Мистик, Грудь
+
+marking-HydrakinMysticLeftArm = Мистик, Левая рука
+
+marking-HydrakinMysticRightArm = Мистик, Правая рука
+
+marking-HydrakinMysticLeftLeg = Мистик, Левая нога
+
+marking-HydrakinMysticRightLeg = Мистик, Правая нога
+
+marking-HydrakinRebelHead = Повстанец, Голова
+
+marking-HydrakinRebelChest = Повстанец, Грудь
+
+marking-HydrakinRebelLeftArm = Повстанец, Левая рука
+
+marking-HydrakinRebelRightArm = Повстанец, Правая рука
+
+marking-HydrakinRebelLeftLeg = Повстанец, Левая нога
+
+marking-HydrakinRebelRightLeg = Повстанец, Правая нога
+
+marking-HydrakinTribalHead = Племенной, Голова
+
+marking-HydrakinTribalChest = Племенной, Грудь
+
+marking-HydrakinTribalLeftArm = Племенной, Левая рука
+
+marking-HydrakinTribalRightArm = Племенной, Правая рука
+
+marking-HydrakinTribalLeftLeg = Племенной, Левая нога
+
+marking-HydrakinTribalRightLeg = Племенной, Правая нога

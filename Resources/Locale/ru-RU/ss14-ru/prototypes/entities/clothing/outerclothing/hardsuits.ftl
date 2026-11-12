@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-ClothingOuterHardsuitAtmos = скафандр атмос-техника
     .desc = Специальный костюм, защищающий от опасной среды с низким давлением. Имеет тепловую защиту.
 ent-ClothingOuterHardsuitCap = бронескафандр капитана
@@ -40,6 +42,7 @@ ent-ClothingOuterHardsuitJuggernaut = костюм джаггернаута Cybe
     .desc = Костюм, созданный отделом передовых исследований и разработок компании Cybersun, обладает повышенной устойчивостью к внешнему воздействию.
 ent-ClothingOuterHardsuitWizard = скафандр волшебника
     .desc = Причудливый скафандр, инкрустированный драгоценными камнями и излучающий магическую энергию.
+    .suffix = { ent-ClothingOuterWizardBaseArmor.suffix }
 ent-ClothingOuterHardsuitLing = органический космический скафандр
     .desc = Устойчивая к космическому давлению и температуре биомасса.
 ent-ClothingOuterHardsuitSpatio = лёгкий скафандр утилизатора

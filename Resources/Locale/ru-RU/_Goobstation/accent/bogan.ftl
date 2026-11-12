@@ -1,3 +1,5 @@
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/_Goobstation/accent/bogan.ftl
+
 # SPDX-FileCopyrightText: 2024 BeeRobynn <166929042+BeeRobynn@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
@@ -77,8 +79,8 @@ accent-bogan-words-31 = слайм
 accent-bogan-words-replace-31 = сопля
 accent-bogan-words-32 = слаймы
 accent-bogan-words-replace-32 = сопли
-accent-bogan-words-33 = blunt
-accent-bogan-words-replace-33 = doobskin
+accent-bogan-words-33 = косяк
+accent-bogan-words-replace-33 = шмалево
 accent-bogan-words-34 = идиот
 accent-bogan-words-replace-34 = ебантяй
 accent-bogan-words-35 = правда

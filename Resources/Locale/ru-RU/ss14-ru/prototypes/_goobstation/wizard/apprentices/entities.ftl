@@ -1,19 +1,29 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-MobHumanApprenticeBase = ученик мага
     .suffix = Человек, Ученик
     .desc = { ent-MobHuman.desc }
 ent-MobHumanApprenticeDestruction = ученик разрушения
     .desc = { ent-MobHumanApprenticeBase.desc }
+    .suffix = { ent-MobHumanApprenticeBase.suffix }
 ent-MobHumanApprenticeEthereal = ученик эфира
     .desc = { ent-MobHumanApprenticeBase.desc }
+    .suffix = { ent-MobHumanApprenticeBase.suffix }
 ent-MobHumanApprenticeSummon = ученик призыва
     .desc = { ent-MobHumanApprenticeBase.desc }
+    .suffix = { ent-MobHumanApprenticeBase.suffix }
 ent-MobHumanApprenticeGun = ученик стрелка
     .desc = { ent-MobHumanApprenticeBase.desc }
+    .suffix = { ent-MobHumanApprenticeBase.suffix }
 ent-MobHumanApprenticeArcane = ученик тайной магии
     .desc = { ent-MobHumanApprenticeBase.desc }
+    .suffix = { ent-MobHumanApprenticeBase.suffix }
 ent-MobHumanApprenticeSanguine = кровавый ученик
     .desc = { ent-MobHumanApprenticeBase.desc }
+    .suffix = { ent-MobHumanApprenticeBase.suffix }
 ent-MobHumanApprenticeRobeless = ученик без роб
     .desc = { ent-MobHumanApprenticeBase.desc }
+    .suffix = { ent-MobHumanApprenticeBase.suffix }
 ent-MobHumanApprenticeChaos = ученик хаоса
     .desc = { ent-MobHumanApprenticeBase.desc }
+    .suffix = { ent-MobHumanApprenticeBase.suffix }

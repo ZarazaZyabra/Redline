@@ -14,3 +14,12 @@ path = ["**.txt", "**.json"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "None"
 SPDX-License-Identifier = "MIT"
+
+# The initial Russian localization was imported from Corvax
+# (space-syndicate/Goob-Station, commit 58365d4bac37a914177610eb18703706d34821ef)
+# and adapted for Redline.
+# Redline's own Russian translations and corrections are in Resources/Locale/ru-RU/_Redline.
+[[annotations]]
+path = ["Resources/Locale/ru-RU/**/*.ftl"]
+precedence = "closest"
+SPDX-License-Identifier = "AGPL-3.0-or-later"

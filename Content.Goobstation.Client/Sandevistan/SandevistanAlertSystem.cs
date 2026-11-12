@@ -19,6 +19,7 @@ public sealed partial class SandevistanAlertSystem : EntitySystem
         SubscribeLocalEvent<SandevistanUserComponent, GetGenericAlertCounterAmountEvent>(OnGetCounterAmount);
 
         _loc.AddFunction(new CultureInfo("en-US"), "SANDE_LOAD_DESC", FormatSandeLoadDesc);
+        _loc.AddFunction(new CultureInfo("ru-RU"), "SANDE_LOAD_DESC", FormatSandeLoadDesc);
     }
 
     private void OnGetCounterAmount(Entity<SandevistanUserComponent> ent, ref GetGenericAlertCounterAmountEvent args)
@@ -47,7 +48,8 @@ public sealed partial class SandevistanAlertSystem : EntitySystem
             var locKey = $"sandevistan-effect-desc-{state.ToString().ToLower()}";
             var desc = _loc.TryGetString(locKey, out var localized) ? localized : state.ToString();
 
-            lines.Add($"At [color={SeverityColors[colorIndex]}]{threshold}[/color] {desc}");
+            lines.Add(_loc.GetString("redline-sandevistan-load-threshold",
+                ("color", SeverityColors[colorIndex]), ("threshold", threshold), ("effect", desc)));
             i++;
         }
 

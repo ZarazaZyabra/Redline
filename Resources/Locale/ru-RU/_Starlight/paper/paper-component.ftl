@@ -1,15 +1,14 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
 # Locale from Sector-Umbra
 
-paper-component-verb-sign = Sign
+# Source: https://github.com/space-syndicate/Goob-Station/blob/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU/_Starlight/paper/paper-component.ftl
+paper-component-verb-sign = Подписать
 
-paper-component-action-signed-self = You sign {THE($target)}.
-paper-component-action-signed-other = {CAPITALIZE(THE($user))} signs {THE($target)}.
 
-paper-component-examine-detail-signed-by = {CAPITALIZE(THE($paper))} {CONJUGATE-HAVE($paper)} been signed by: {$stamps}.
 
 # Form and signature buttons
-paper-form-fill-button = Fill
-paper-signature-sign-button = Sign
-paper-form-dialog-ok = OK
-paper-form-dialog-cancel = Cancel
-paper-signature-unknown = Unknown
+paper-form-fill-button = Заполнить
+paper-signature-sign-button = Подписать
+paper-form-dialog-ok = ОК
+paper-form-dialog-cancel = Отменить
+paper-signature-unknown = Неизвестно

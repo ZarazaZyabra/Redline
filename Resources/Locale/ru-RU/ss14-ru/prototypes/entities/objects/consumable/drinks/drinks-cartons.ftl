@@ -1,23 +1,35 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-DrinkCartonBaseFull = { ent-DrinkBase }
     .desc = { ent-DrinkBase.desc }
     .suffix = Полный
 ent-DrinkJuiceLimeCarton = лаймовый сок
     .desc = Кисло-сладкое удовольствие.
+    .suffix = { ent-DrinkCartonBaseFull.suffix }
 ent-DrinkJuiceOrangeCarton = апельсиновый сок
     .desc = Полное витаминов удовольствие!
+    .suffix = { ent-DrinkCartonBaseFull.suffix }
 ent-DrinkJuiceTomatoCarton = томатный сок
     .desc = Ну, по крайней мере, это ВЫГЛЯДИТ как томатный сок. По этой красноте ничего не скажешь.
+    .suffix = { ent-DrinkCartonBaseFull.suffix }
 ent-DrinkCoconutWaterCarton = кокосовая вода
     .desc = Главное — это внутренняя часть кокоса.
+    .suffix = { ent-DrinkCartonBaseFull.suffix }
 ent-DrinkCreamCarton = молочные сливки
     .desc = Это сливки. Сделанные из молока. Что ещё вы ожидали здесь найти?
+    .suffix = { ent-DrinkCartonBaseFull.suffix }
 ent-DrinkMilkCarton = молоко
     .desc = Непрозрачная белая жидкость, вырабатываемая молочными железами млекопитающих.
+    .suffix = { ent-DrinkCartonBaseFull.suffix }
 ent-DrinkSoyMilkCarton = соевое молоко
     .desc = Белое и питательное соевое удовольствие!
+    .suffix = { ent-DrinkCartonBaseFull.suffix }
 ent-DrinkOatMilkCarton = овсяное молоко
     .desc = Бежевое и питательное удовольствие!
+    .suffix = { ent-DrinkCartonBaseFull.suffix }
 ent-DrinkJuiceLemonCarton = лимонный сок
     .desc = На первый глоток он кислит, а затем всё равно кислит.
+    .suffix = { ent-DrinkCartonBaseFull.suffix }
 ent-DrinkJuicePineappleCarton = ананасовый сок
     .desc = На вкус как отпуск в тропиках далеко от космоса.
+    .suffix = { ent-DrinkCartonBaseFull.suffix }

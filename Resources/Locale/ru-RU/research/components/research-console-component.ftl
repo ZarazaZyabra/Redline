@@ -1,3 +1,5 @@
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/research/components/research-console-component.ftl
+
 ## UI
 
 research-console-menu-title = Консоль R&D
@@ -17,4 +19,4 @@ research-console-menu-server-sync-button = Синхронизировать
 research-console-prereqs-list-start = Требует:
 research-console-prereqs-list-entry = - [color=orchid]{ $text }[/color]
 research-console-no-access-popup = Нет доступа!
-research-console-unlock-technology-radio-broadcast = Пользователь [bold]{ $approver }[/bold] исследовал [bold]{ $technology }[/bold], за [bold]{ $amount }[/bold] очков исследований.
+research-console-unlock-technology-radio-broadcast = [color=mediumorchid]Пользователь [bold]{ $approver }[/bold] исследовал [bold]{ $technology }[/bold], за [bold]{ $amount }[/bold] очков исследований.[/color]

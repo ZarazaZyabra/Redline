@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-FoodSnackProteinbar = протеиновый батончик
     .desc = Протеиновые батончики бренда SwoleMAX, гарантированно вызывают чрезмерную уверенность в себе.
 ent-FoodSnackMothdog = моль в тесте
@@ -43,12 +45,16 @@ ent-FoodSnackAncientBurger = космический бургер
     .suffix = древний
 ent-FoodSnackAncientPizza = космическая пицца
     .desc = В своё время, вероятно, выглядела вкусно.
+    .suffix = { ent-FoodSnackAncientBurger.suffix }
 ent-FoodSnackAncientFries = космическая картошка фри
     .desc = Похоже, соль сохранила её, но она всё ещё черствая и невкусная.
+    .suffix = { ent-FoodSnackAncientBurger.suffix }
 ent-FoodSnackAncientHotdog = космический хотдог
     .desc = Вероятно, только немного менее опасен для еды, чем когда его впервые приготовили.
+    .suffix = { ent-FoodSnackAncientBurger.suffix }
 ent-FoodSnackAncientTaco = космическое тако
     .desc = Интересно, что оболочка размягчилась, а начинка зачерствела.
+    .suffix = { ent-FoodSnackAncientBurger.suffix }
 ent-FoodPacketLunacakeTrash = упаковка лунакейка
     .desc = { ent-FoodPacketTrash.desc }
 ent-FoodPacketMochicakeTrash = упаковка мочикака

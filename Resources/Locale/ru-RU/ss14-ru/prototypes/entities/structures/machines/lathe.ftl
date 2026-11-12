@@ -1,3 +1,5 @@
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/ss14-ru/prototypes/entities/structures/machines/lathe.ftl
+
 ent-BaseLathe = лат
     .desc = { ent-BaseMachinePowered.desc }
 ent-BaseLatheLube = { ent-BaseLathe }
@@ -36,5 +38,5 @@ ent-OreProcessorIndustrial = промышленный переработчик �
     .desc = Переработчик руды, разработанный специально для производства металлов в промышленных масштабах.
 ent-Sheetifier = лист-мастер 2000
     .desc = Довольно мяссивное устройство.
-ent-CutterMachine = резательный станок
+ent-CutterMachine = Плиткорез 4000
     .desc = Это резак. Он режет. Придайте разнообразия полу вашей станции с помощью интересных узоров! Не засовывайте внутрь пальцы.

@@ -1,3 +1,5 @@
-speakfontoverride-toggle = Toggle Modulation
-speakfontoverride-enabled = Modulation enabled
-speakfontoverride-disabled = Modulation disabled
+# Source: https://github.com/space-syndicate/Goob-Station/blob/2bb4567d8b9b0d3d1a0a5c580a007d879775eb25/Resources/Locale/ru-RU/_Goobstation/speakfontoverride.ftl
+
+speakfontoverride-toggle = Переключить модуляцию
+speakfontoverride-enabled = Модуляция включена
+speakfontoverride-disabled = Модуляция отключена

@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-AirlockServiceLocked = { ent-Airlock }
     .suffix = Сервисный, Закрыт
     .desc = { ent-Airlock.desc }
@@ -318,6 +320,7 @@ ent-AirlockMaintServiceLocked = { ent-AirlockMaint }
     .desc = { ent-AirlockMaint.desc }
 ent-AirlockMaintServiceTheatreLocked = { ent-AirlockServiceTheatreLocked }
     .desc = { ent-AirlockServiceTheatreLocked.desc }
+    .suffix = { ent-AirlockServiceTheatreLocked.suffix }
 ent-AirlockMaintTheatreLocked = { ent-AirlockMaintServiceLocked }
     .suffix = Театр, Закрыт
     .desc = { ent-AirlockMaintServiceLocked.desc }

@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-ClothingHeadHelmetHardsuitChronolegioneer = футуристический шлем
     .desc = Шлем бойцов будущего, предназначенный для операций со временем.
 ent-ClothingHeadHelmetHardsuitBlueshield = шлем боевого костюма Синий Щит
@@ -17,6 +19,7 @@ ent-ClothingHeadSinguloth = шлем рыцаря Сингулота
     .desc = Адамантиевый шлем ордена Рыцарей Сингулота. Заставь своих врагов извиниться.
 ent-ClothingHeadHelmetHardsuitVoxRaiderStealth = пустотный шлем вокс налётчика
     .desc = Матово-чёрный инопланетный шлем с плавными контурами.
+    .suffix = { ent-ClothingHeadHelmetHardsuitCybersunStealth.suffix }
 ent-ClothingHeadHelmetHardsuitDetective = шлем скафандра детектива
     .desc = Шлем со встроенной федорой для скафандра детектива.
 ent-ClothingHeadHelmetHardsuitContractor = шлем скафандра Наёмника

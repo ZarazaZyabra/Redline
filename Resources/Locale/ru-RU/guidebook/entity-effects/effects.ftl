@@ -1,3 +1,4 @@
+
 -create-3rd-person =
     { $chance ->
         [1] Создаёт
@@ -12,14 +13,6 @@
     { $chance ->
         [1] Насыщает
        *[other] насыщают
-    }
-entity-effect-guidebook-spawn-entity =
-    { $chance ->
-        [1] Создаёт
-        *[other] создать
-    } { $amount ->
-        [1] { INDEFINITE($entname) }
-        *[other] { $amount } { MAKEPLURAL($entname) }
     }
 
 entity-effect-guidebook-destroy =
@@ -101,25 +94,6 @@ entity-effect-guidebook-even-health-change =
             }
     } { $changes }
 
-entity-effect-guidebook-status-effect-old =
-    { $type ->
-        [update]{ $chance ->
-                [1] Вызывает
-                *[other] вызвать
-            } { LOC($key) } минимум на { NATURALFIXED($time, 3) } { MANY("секунд", $time) } без накопления эффекта
-        [add]   { $chance ->
-                [1] Вызывает
-                *[other] вызвать
-            } { LOC($key) } минимум на { NATURALFIXED($time, 3) } { MANY("секунд", $time) } с накоплением эффекта
-        [set]  { $chance ->
-                [1] Вызывает
-                *[other] вызвать
-            } { LOC($key) } на { NATURALFIXED($time, 3) } { MANY("секунд", $time) } без накопления эффекта
-        *[remove]{ $chance ->
-                [1] Удаляет
-                *[other] удалить
-            } { NATURALFIXED($time, 3) } { MANY("секунд", $time) } { LOC($key) }
-    }
 entity-effect-guidebook-status-effect =
     { $type ->
         [update]
@@ -197,25 +171,6 @@ entity-effect-guidebook-status-effect-indef =
                 [few] секунды
                *[other] секунд
             } задержки
-    }
-entity-effect-guidebook-knockdown =
-    { $type ->
-        [update]{ $chance ->
-                [1] Вызывает
-                *[other] вызвать
-            } { LOC($key) } минимум на { NATURALFIXED($time, 3) } { MANY("секунд", $time) } без накопления эффекта
-        [add]   { $chance ->
-                [1] Вызывает
-                *[other] вызвать
-            } нокаут миниум { NATURALFIXED($time, 3) } { MANY("секунд", $time) } с накоплением эффекта
-        *[set]  { $chance ->
-                [1] Вызывает
-                *[other] вызвать
-            } нокаут миниум { NATURALFIXED($time, 3) } { MANY("секунд", $time) } без накопления эффекта
-        [remove]{ $chance ->
-                [1] Удаляет
-                *[other] удалить
-            } { NATURALFIXED($time, 3) } { MANY("секунд", $time) } нокаута
     }
 entity-effect-guidebook-set-solution-temperature-effect =
     { $chance ->
@@ -336,11 +291,6 @@ entity-effect-guidebook-drunk =
         [1] Вызывает
         *[other] вызвать
     } опьянение
-entity-effect-guidebook-electrocute =
-    { $chance ->
-        [1] Поражает электрическим током
-        *[other] поразить электрическим током
-    } на { NATURALFIXED($time, 3) } { MANY("секунд", $time) }
 entity-effect-guidebook-emote =
     { $chance ->
         [1] Заставляет
@@ -395,16 +345,6 @@ entity-effect-guidebook-modify-blood-level =
                 *[-1] уменьшить
             }
     } уровень крови
-entity-effect-guidebook-paralyze =
-    { $chance ->
-        [1] Парализует
-        *[other] парализовать
-    } минимум на { NATURALFIXED($time, 3) } { MANY("секунд", $time) }
-entity-effect-guidebook-movespeed-modifier =
-    { $chance ->
-        [1] Изменяет
-        *[other] изменить
-    } скорость бега на { NATURALFIXED($sprintspeed, 3) }х минимум на { NATURALFIXED($time, 3) } { MANY("секунд", $time) }
 entity-effect-guidebook-reset-narcolepsy =
     { $chance ->
         [1] Временно предотвращает
@@ -430,16 +370,6 @@ entity-effect-guidebook-innoculate-zombie-infection =
         [1] Лечит
        *[other] лечат
     } зомби-вирус и обеспечивает иммунитет к нему в будущем
-entity-effect-guidebook-reduce-rotting =
-    { $chance ->
-        [1] Регенерирует
-        *[other] регенерировать
-    } { NATURALFIXED($time, 3) } { MANY("секунд", $time) } гниения
-entity-effect-guidebook-area-reaction =
-    { $chance ->
-        [1] Вызывает
-        *[other] вызвать
-    } реакцию дыма или пены на { NATURALFIXED($duration, 3) } { MANY("секунд", $duration) }
 entity-effect-guidebook-add-to-solution-reaction =
     { $chance ->
         [1] Вызывает

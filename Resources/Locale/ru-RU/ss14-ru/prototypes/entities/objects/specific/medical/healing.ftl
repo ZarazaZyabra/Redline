@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-BaseHealingItem = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-Ointment = мазь
@@ -38,6 +40,7 @@ ent-Gauze1 = { ent-Gauze }
     .suffix = Один
 ent-AloeCream = алоэ крем
     .desc = Крем для наружного применения при ожогах.
+    .suffix = { ent-Ointment.suffix }
 ent-HealingToolbox = лечащий тулбокс
     .desc = Мощный тулбокс, пропитанный энергией робаста. Залечит ваши ранения и наполнит вас убийственными намерениями.
 ent-PillDexalin = таблетка

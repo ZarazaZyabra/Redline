@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Source: https://github.com/space-syndicate/Goob-Station/tree/474a58c6f53a8e70306ded42077fe1bc39ae906f/Resources/Locale/ru-RU
 ent-ClothingHeadHelmetBase = { ent-ClothingHeadBase }
     .desc = { ent-ClothingHeadBase.desc }
 ent-ClothingHeadHelmetArmoredBase = { ent-ClothingHeadHelmetBase }
@@ -27,6 +29,7 @@ ent-ClothingHeadHelmetThunderdome = шлем громовержца
     .desc = Да начнётся битва!
 ent-ClothingHeadHelmetWizardHelm = шлем волшебника
     .desc = Странного вида шлем, который, несомненно, принадлежал настоящему магу.
+    .suffix = { ent-ClothingHeadHatWizardBaseArmor.suffix }
 ent-ClothingHeadHelmetFire = пожарный шлем
     .desc = Лучший друг борцов с огнём. Обеспечивает определённую жаростойкость и выглядит круто.
 ent-ClothingHeadHelmetERTLeader = шлем лидера ОБР

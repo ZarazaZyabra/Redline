@@ -763,7 +763,10 @@ public sealed partial class GoobCVars
     /// Whether speech bubbles are drawn SS13 runechat style
     /// </summary>
     public static readonly CVarDef<bool> ChatRunechat =
-        CVarDef.Create("chat.runechat", true, CVar.CLIENTONLY | CVar.ARCHIVE);
+        // # Redline_start
+        // CVarDef.Create("chat.runechat", true, CVar.CLIENTONLY | CVar.ARCHIVE);
+        CVarDef.Create("chat.runechat", false, CVar.CLIENTONLY | CVar.ARCHIVE);
+        // # Redline_end
 
     /// <summary>
     /// Point size of normal runechat text.

@@ -286,7 +286,10 @@ namespace Content.Client.Chat.UI
             {
                 ModulateSelfOverride = Color.White.WithAlpha(ConfigManager.GetCVar(CCVars.SpeechBubbleTextOpacity)),
                 MaxWidth = SpeechMaxWidth,
-                Margin = new Thickness(2, 6, 2, 2),
+                // # Redline_start
+                // Margin = new Thickness(2, 6, 2, 2),
+                Margin = new Thickness(2, 2, 2, 2),
+                // # Redline_end
                 StyleClasses = { "bubbleContent" },
             };
 
@@ -301,8 +304,11 @@ namespace Content.Client.Chat.UI
                 Children = { bubbleContent },
                 ModulateSelfOverride = Color.White.WithAlpha(ConfigManager.GetCVar(CCVars.SpeechBubbleBackgroundOpacity)),
                 HorizontalAlignment = HAlignment.Center,
-                VerticalAlignment = VAlignment.Bottom,
-                Margin = new Thickness(4, 14, 4, 2)
+                // # Redline_start
+                // VerticalAlignment = VAlignment.Bottom,
+                // Margin = new Thickness(4, 14, 4, 2)
+                Margin = new Thickness(4, 0, 4, 2)
+                // # Redline_end
             };
 
             var headerPanel = new PanelContainer
@@ -314,10 +320,19 @@ namespace Content.Client.Chat.UI
                 VerticalAlignment = VAlignment.Top
             };
 
-            var panel = new PanelContainer
+            // # Redline_start
+            // var panel = new PanelContainer
+            // {
+            //     Children = { mainPanel, headerPanel }
+            // };
+            var panel = new BoxContainer
             {
-                Children = { mainPanel, headerPanel }
+                Orientation = BoxContainer.LayoutOrientation.Vertical,
+                HorizontalAlignment = HAlignment.Center,
+                VerticalAlignment = VAlignment.Bottom,
+                Children = { headerPanel, mainPanel }
             };
+            // # Redline_end
 
             return panel;
         }

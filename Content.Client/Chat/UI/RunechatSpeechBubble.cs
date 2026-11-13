@@ -107,7 +107,10 @@ public sealed class RunechatSpeechBubble : SpeechBubble
             OutlineThicknessOverride = outline,
             OutlineColorOverride = Color.Black,
             Margin = new Thickness(pad, pad, pad, pad + 2),
-            Stylesheet = RunechatStyle.GetStylesheet(whisper ? RunechatStyle.WhisperFontPath : RunechatStyle.FontPath, size),
+            // # Redline_start
+            // Stylesheet = RunechatStyle.GetStylesheet(whisper ? RunechatStyle.WhisperFontPath : RunechatStyle.FontPath, size),
+            Stylesheet = RunechatStyle.GetStylesheet("/Fonts/Boxfont-round/Boxfont Round.ttf", size),
+            // # Redline_end
         };
         label.SetMessage(msg, AllowedTags);
 

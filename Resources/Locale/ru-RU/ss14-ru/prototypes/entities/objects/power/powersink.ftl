@@ -4,4 +4,3 @@ ent-PowerSink = большое устройство с консолью
     .suffix = поглотитель энергии
 
 # Corvax-HiddenDesc-End
-

@@ -30,4 +30,3 @@ objective-issuer-swf = [color=turquoise]Федерация космически�
 wizard-round-end-name = волшебник
 
 ## TODO: Wizard Apprentice (Coming sometime post-wizard release)
-

@@ -356,5 +356,3 @@ flavor-weh = как вех
 flavor-hew = как хев
 
 flavor-complex-canned-tuna = как консервированный тунец
-
-

@@ -4,4 +4,3 @@ ent-SpiderCharge = подозрительное устройство
     .suffix = бомба клана паука
 
 # Corvax-HiddenDesc-End
-

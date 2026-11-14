@@ -22,4 +22,3 @@ ent-ReinforcementRadioSyndicateCyborgAssault = { ent-ReinforcementRadio }
     .suffix = радио подкрепления штурмового борга Синдиката, Ядерные оперативники
 
 # Corvax-HiddenDesc-End
-

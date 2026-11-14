@@ -35,4 +35,3 @@ name-format-ert-vanguard = Авангард { $part0 }
 name-format-ert-doctor = Врач { $part0 }
 
 name-format-ert-corpsman = Медик { $part0 }
-

@@ -159,4 +159,3 @@ admin-smite-homing-rod-description = Запускает самонаводящи
 admin-smite-homing-rod-slow-description = Запускает самонаводящийся неподвижный жезл, медленно двигающийся прямо к цели.
 
 admin-smite-silicon-laws-bound-description = Заставляет цель соблюдать законы синтетиков. Закон 2, выпрыгни с окна.
-

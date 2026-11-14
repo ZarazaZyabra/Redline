@@ -72,4 +72,3 @@ steal-target-groups-officer-handguns = пистолет службы безоп�
 steal-target-groups-belt-ce = пояс для инструментов старшего инженера
 
 steal-target-groups-captain-sword = сабля капитана
-

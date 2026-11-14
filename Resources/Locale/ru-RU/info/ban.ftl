@@ -79,4 +79,3 @@ cmd-ban_exemption_get-arg-player = <player>
 ban-kick-reason = Вы были забанены
 
 ban-panel-expiry-error = ошибка
-

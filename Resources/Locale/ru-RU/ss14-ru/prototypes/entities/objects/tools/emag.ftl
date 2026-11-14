@@ -7,4 +7,3 @@ ent-Emag = { ent-EmagUnlimited }
     .suffix = Ограниченный, криптографический секвенсор
 
 # Corvax-HiddenDesc-End
-

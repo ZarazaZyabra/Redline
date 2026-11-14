@@ -40,4 +40,3 @@ ent-BaseUplinkContractor = аплинк Наёмника
     .suffix = Пустой
 
 # Corvax-HiddenDesc-End
-

@@ -3,4 +3,3 @@ xenomorphs-acid-already-corroding = { $target } уже разъедается к
 xenomorphs-acid-apply = применена разъедающая кислота к { $target }.
 
 ### Goobstation
-

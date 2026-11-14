@@ -64,4 +64,3 @@ itemswitch-component-state-wound-tender = медицинский инструм�
 itemswitch-component-state-tweezers = пинцет
 
 # CorvaxGoob-shitcode-localization-end
-

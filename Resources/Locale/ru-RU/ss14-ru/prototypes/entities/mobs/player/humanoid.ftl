@@ -80,4 +80,3 @@ ent-RandomHumanoidSpawnerERTSecurityArmedShotgun = { ent-RandomHumanoidSpawnerER
 ent-RandomHumanoidSpawnerERTMedicalArmed = ОБР медик
     .suffix = Роль ОБР, Вооружен, ВКД
     .desc = Вооружен Лектером, 4 запасных магазина разного типа.
-

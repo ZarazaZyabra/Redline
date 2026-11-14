@@ -98,7 +98,7 @@ ntr-executive-id-name = Плата консоли ID-карт
 ntr-executive-id-desc = Высококачественная плата для создания консоли ID-карт.
 ntr-executive-task-console-flatpack-name = упакованная консоль заданий ПNT
 ntr-executive-task-console-flatpack-desc = Обычная упаковка, содержащая запасную консоль заданий для представителя корпорации.
-# Зловещее 
+# Зловещее
 ntr-executive-nuclear-codes-name = Коды ядерной аутентификации
 ntr-executive-nuclear-codes-desc = Нажмёшь не ту кнопку - и целой станции как не бывало. Так что, пожалуйста, не делайте импульсивных резких движений.
 # Категории

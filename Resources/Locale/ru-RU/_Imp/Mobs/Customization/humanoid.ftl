@@ -218,9 +218,9 @@ marking-HumanHairShaggyMessy = Кудрявый (Неаккуратный)
 marking-HumanHairSusie = Злая Девчонка (Челка)
 marking-HumanHairSusieNoBangs = Злая Девчонка
 
-# Tail  
+# Tail
 
-# RArmExtension  
+# RArmExtension
 
 marking-HeadEarrings = Серьги (Маленькие)
 marking-HeadEarrings-earrings1 = Правая серьга

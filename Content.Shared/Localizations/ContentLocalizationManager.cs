@@ -33,7 +33,7 @@ namespace Content.Shared.Localizations
 
             _loc.LoadCulture(culture);
             _loc.LoadCulture(fallbackCulture);
-            _loc.SetFallbackCluture(fallbackCulture);
+            _loc.SetFallbackCulture(fallbackCulture);
             _loc.AddFunction(culture, "MANY", FormatMany);
 
             _loc.AddFunction(culture, "PRESSURE", FormatPressure);
